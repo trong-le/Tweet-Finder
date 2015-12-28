@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8DC1C8D1C31C888008920A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DC1C8C1C31C888008920A9 /* AppDelegate.swift */; };
+		F8DC1C8F1C31C888008920A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DC1C8E1C31C888008920A9 /* ViewController.swift */; };
+		F8DC1C921C31C888008920A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8DC1C901C31C888008920A9 /* Main.storyboard */; };
+		F8DC1C941C31C888008920A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8DC1C931C31C888008920A9 /* Assets.xcassets */; };
+		F8DC1C971C31C888008920A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8DC1C951C31C888008920A9 /* LaunchScreen.storyboard */; };
+		F8DC1CA21C31C888008920A9 /* Tweet_FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DC1CA11C31C888008920A9 /* Tweet_FinderTests.swift */; };
+		F8DC1CAD1C31C888008920A9 /* Tweet_FinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DC1CAC1C31C888008920A9 /* Tweet_FinderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8DC1C9E1C31C888008920A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8DC1C811C31C888008920A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8DC1C881C31C888008920A9;
+			remoteInfo = "Tweet Finder";
+		};
+		F8DC1CA91C31C888008920A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8DC1C811C31C888008920A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8DC1C881C31C888008920A9;
+			remoteInfo = "Tweet Finder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8DC1C891C31C888008920A9 /* Tweet Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tweet Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8DC1C8C1C31C888008920A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8DC1C8E1C31C888008920A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8DC1C911C31C888008920A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8DC1C931C31C888008920A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8DC1C961C31C888008920A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8DC1C981C31C888008920A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8DC1C9D1C31C888008920A9 /* Tweet FinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tweet FinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8DC1CA11C31C888008920A9 /* Tweet_FinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet_FinderTests.swift; sourceTree = "<group>"; };
+		F8DC1CA31C31C888008920A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8DC1CA81C31C888008920A9 /* Tweet FinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tweet FinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8DC1CAC1C31C888008920A9 /* Tweet_FinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet_FinderUITests.swift; sourceTree = "<group>"; };
+		F8DC1CAE1C31C888008920A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8DC1C861C31C888008920A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8DC1C9A1C31C888008920A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8DC1CA51C31C888008920A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8DC1C801C31C888008920A9 = {
+			isa = PBXGroup;
+			children = (
+				F8DC1C8B1C31C888008920A9 /* Tweet Finder */,
+				F8DC1CA01C31C888008920A9 /* Tweet FinderTests */,
+				F8DC1CAB1C31C888008920A9 /* Tweet FinderUITests */,
+				F8DC1C8A1C31C888008920A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8DC1C8A1C31C888008920A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8DC1C891C31C888008920A9 /* Tweet Finder.app */,
+				F8DC1C9D1C31C888008920A9 /* Tweet FinderTests.xctest */,
+				F8DC1CA81C31C888008920A9 /* Tweet FinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8DC1C8B1C31C888008920A9 /* Tweet Finder */ = {
+			isa = PBXGroup;
+			children = (
+				F8DC1C8C1C31C888008920A9 /* AppDelegate.swift */,
+				F8DC1C8E1C31C888008920A9 /* ViewController.swift */,
+				F8DC1C901C31C888008920A9 /* Main.storyboard */,
+				F8DC1C931C31C888008920A9 /* Assets.xcassets */,
+				F8DC1C951C31C888008920A9 /* LaunchScreen.storyboard */,
+				F8DC1C981C31C888008920A9 /* Info.plist */,
+			);
+			path = "Tweet Finder";
+			sourceTree = "<group>";
+		};
+		F8DC1CA01C31C888008920A9 /* Tweet FinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8DC1CA11C31C888008920A9 /* Tweet_FinderTests.swift */,
+				F8DC1CA31C31C888008920A9 /* Info.plist */,
+			);
+			path = "Tweet FinderTests";
+			sourceTree = "<group>";
+		};
+		F8DC1CAB1C31C888008920A9 /* Tweet FinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8DC1CAC1C31C888008920A9 /* Tweet_FinderUITests.swift */,
+				F8DC1CAE1C31C888008920A9 /* Info.plist */,
+			);
+			path = "Tweet FinderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8DC1C881C31C888008920A9 /* Tweet Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8DC1CB11C31C888008920A9 /* Build configuration list for PBXNativeTarget "Tweet Finder" */;
+			buildPhases = (
+				F8DC1C851C31C888008920A9 /* Sources */,
+				F8DC1C861C31C888008920A9 /* Frameworks */,
+				F8DC1C871C31C888008920A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tweet Finder";
+			productName = "Tweet Finder";
+			productReference = F8DC1C891C31C888008920A9 /* Tweet Finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8DC1C9C1C31C888008920A9 /* Tweet FinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8DC1CB41C31C888008920A9 /* Build configuration list for PBXNativeTarget "Tweet FinderTests" */;
+			buildPhases = (
+				F8DC1C991C31C888008920A9 /* Sources */,
+				F8DC1C9A1C31C888008920A9 /* Frameworks */,
+				F8DC1C9B1C31C888008920A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8DC1C9F1C31C888008920A9 /* PBXTargetDependency */,
+			);
+			name = "Tweet FinderTests";
+			productName = "Tweet FinderTests";
+			productReference = F8DC1C9D1C31C888008920A9 /* Tweet FinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8DC1CA71C31C888008920A9 /* Tweet FinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8DC1CB71C31C888008920A9 /* Build configuration list for PBXNativeTarget "Tweet FinderUITests" */;
+			buildPhases = (
+				F8DC1CA41C31C888008920A9 /* Sources */,
+				F8DC1CA51C31C888008920A9 /* Frameworks */,
+				F8DC1CA61C31C888008920A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8DC1CAA1C31C888008920A9 /* PBXTargetDependency */,
+			);
+			name = "Tweet FinderUITests";
+			productName = "Tweet FinderUITests";
+			productReference = F8DC1CA81C31C888008920A9 /* Tweet FinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8DC1C811C31C888008920A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Trong Le";
+				TargetAttributes = {
+					F8DC1C881C31C888008920A9 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					F8DC1C9C1C31C888008920A9 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = F8DC1C881C31C888008920A9;
+					};
+					F8DC1CA71C31C888008920A9 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = F8DC1C881C31C888008920A9;
+					};
+				};
+			};
+			buildConfigurationList = F8DC1C841C31C888008920A9 /* Build configuration list for PBXProject "Tweet Finder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8DC1C801C31C888008920A9;
+			productRefGroup = F8DC1C8A1C31C888008920A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8DC1C881C31C888008920A9 /* Tweet Finder */,
+				F8DC1C9C1C31C888008920A9 /* Tweet FinderTests */,
+				F8DC1CA71C31C888008920A9 /* Tweet FinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8DC1C871C31C888008920A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8DC1C971C31C888008920A9 /* LaunchScreen.storyboard in Resources */,
+				F8DC1C941C31C888008920A9 /* Assets.xcassets in Resources */,
+				F8DC1C921C31C888008920A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8DC1C9B1C31C888008920A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8DC1CA61C31C888008920A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8DC1C851C31C888008920A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8DC1C8F1C31C888008920A9 /* ViewController.swift in Sources */,
+				F8DC1C8D1C31C888008920A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8DC1C991C31C888008920A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8DC1CA21C31C888008920A9 /* Tweet_FinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8DC1CA41C31C888008920A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8DC1CAD1C31C888008920A9 /* Tweet_FinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8DC1C9F1C31C888008920A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8DC1C881C31C888008920A9 /* Tweet Finder */;
+			targetProxy = F8DC1C9E1C31C888008920A9 /* PBXContainerItemProxy */;
+		};
+		F8DC1CAA1C31C888008920A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8DC1C881C31C888008920A9 /* Tweet Finder */;
+			targetProxy = F8DC1CA91C31C888008920A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8DC1C901C31C888008920A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8DC1C911C31C888008920A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8DC1C951C31C888008920A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8DC1C961C31C888008920A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8DC1CAF1C31C888008920A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8DC1CB01C31C888008920A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8DC1CB21C31C888008920A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tweet Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Trong.Le.Tweet-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8DC1CB31C31C888008920A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tweet Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Trong.Le.Tweet-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8DC1CB51C31C888008920A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Tweet FinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Trong.Le.Tweet-FinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tweet Finder.app/Tweet Finder";
+			};
+			name = Debug;
+		};
+		F8DC1CB61C31C888008920A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Tweet FinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Trong.Le.Tweet-FinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tweet Finder.app/Tweet Finder";
+			};
+			name = Release;
+		};
+		F8DC1CB81C31C888008920A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Tweet FinderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Trong.Le.Tweet-FinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Tweet Finder";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F8DC1CB91C31C888008920A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Tweet FinderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Trong.Le.Tweet-FinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Tweet Finder";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8DC1C841C31C888008920A9 /* Build configuration list for PBXProject "Tweet Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8DC1CAF1C31C888008920A9 /* Debug */,
+				F8DC1CB01C31C888008920A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8DC1CB11C31C888008920A9 /* Build configuration list for PBXNativeTarget "Tweet Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8DC1CB21C31C888008920A9 /* Debug */,
+				F8DC1CB31C31C888008920A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8DC1CB41C31C888008920A9 /* Build configuration list for PBXNativeTarget "Tweet FinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8DC1CB51C31C888008920A9 /* Debug */,
+				F8DC1CB61C31C888008920A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8DC1CB71C31C888008920A9 /* Build configuration list for PBXNativeTarget "Tweet FinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8DC1CB81C31C888008920A9 /* Debug */,
+				F8DC1CB91C31C888008920A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8DC1C811C31C888008920A9 /* Project object */;
+}
