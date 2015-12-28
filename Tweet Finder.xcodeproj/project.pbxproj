@@ -14,6 +14,11 @@
 		F8DC1C971C31C888008920A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8DC1C951C31C888008920A9 /* LaunchScreen.storyboard */; };
 		F8DC1CA21C31C888008920A9 /* Tweet_FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DC1CA11C31C888008920A9 /* Tweet_FinderTests.swift */; };
 		F8DC1CAD1C31C888008920A9 /* Tweet_FinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DC1CAC1C31C888008920A9 /* Tweet_FinderUITests.swift */; };
+		F8F0B5821C31D13D00FCAC1A /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F0B57E1C31D13D00FCAC1A /* MediaItem.swift */; settings = {ASSET_TAGS = (); }; };
+		F8F0B5831C31D13D00FCAC1A /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F0B57F1C31D13D00FCAC1A /* Tweet.swift */; settings = {ASSET_TAGS = (); }; };
+		F8F0B5841C31D13D00FCAC1A /* TwitterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F0B5801C31D13D00FCAC1A /* TwitterRequest.swift */; settings = {ASSET_TAGS = (); }; };
+		F8F0B5851C31D13D00FCAC1A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F0B5811C31D13D00FCAC1A /* User.swift */; settings = {ASSET_TAGS = (); }; };
+		F8F0B5871C31D24F00FCAC1A /* TweetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F0B5861C31D24F00FCAC1A /* TweetTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		F8DC1CA81C31C888008920A9 /* Tweet FinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tweet FinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DC1CAC1C31C888008920A9 /* Tweet_FinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet_FinderUITests.swift; sourceTree = "<group>"; };
 		F8DC1CAE1C31C888008920A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8F0B57E1C31D13D00FCAC1A /* MediaItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
+		F8F0B57F1C31D13D00FCAC1A /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		F8F0B5801C31D13D00FCAC1A /* TwitterRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterRequest.swift; sourceTree = "<group>"; };
+		F8F0B5811C31D13D00FCAC1A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F8F0B5861C31D24F00FCAC1A /* TweetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +84,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F80DFB461C31D0A90037B337 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8DC1C8C1C31C888008920A9 /* AppDelegate.swift */,
+				F8DC1C931C31C888008920A9 /* Assets.xcassets */,
+				F8DC1C981C31C888008920A9 /* Info.plist */,
+				F8DC1C951C31C888008920A9 /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		F8DC1C801C31C888008920A9 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +118,11 @@
 		F8DC1C8B1C31C888008920A9 /* Tweet Finder */ = {
 			isa = PBXGroup;
 			children = (
-				F8DC1C8C1C31C888008920A9 /* AppDelegate.swift */,
 				F8DC1C8E1C31C888008920A9 /* ViewController.swift */,
 				F8DC1C901C31C888008920A9 /* Main.storyboard */,
-				F8DC1C931C31C888008920A9 /* Assets.xcassets */,
-				F8DC1C951C31C888008920A9 /* LaunchScreen.storyboard */,
-				F8DC1C981C31C888008920A9 /* Info.plist */,
+				F8F0B5861C31D24F00FCAC1A /* TweetTableViewController.swift */,
+				F8F0B57D1C31D13D00FCAC1A /* TwitterFiles */,
+				F80DFB461C31D0A90037B337 /* Supporting Files */,
 			);
 			path = "Tweet Finder";
 			sourceTree = "<group>";
@@ -123,6 +143,17 @@
 				F8DC1CAE1C31C888008920A9 /* Info.plist */,
 			);
 			path = "Tweet FinderUITests";
+			sourceTree = "<group>";
+		};
+		F8F0B57D1C31D13D00FCAC1A /* TwitterFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F8F0B57E1C31D13D00FCAC1A /* MediaItem.swift */,
+				F8F0B57F1C31D13D00FCAC1A /* Tweet.swift */,
+				F8F0B5801C31D13D00FCAC1A /* TwitterRequest.swift */,
+				F8F0B5811C31D13D00FCAC1A /* User.swift */,
+			);
+			path = TwitterFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,8 +286,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F0B5871C31D24F00FCAC1A /* TweetTableViewController.swift in Sources */,
 				F8DC1C8F1C31C888008920A9 /* ViewController.swift in Sources */,
+				F8F0B5841C31D13D00FCAC1A /* TwitterRequest.swift in Sources */,
+				F8F0B5851C31D13D00FCAC1A /* User.swift in Sources */,
 				F8DC1C8D1C31C888008920A9 /* AppDelegate.swift in Sources */,
+				F8F0B5821C31D13D00FCAC1A /* MediaItem.swift in Sources */,
+				F8F0B5831C31D13D00FCAC1A /* Tweet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +519,7 @@
 				F8DC1CB31C31C888008920A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8DC1CB41C31C888008920A9 /* Build configuration list for PBXNativeTarget "Tweet FinderTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +528,7 @@
 				F8DC1CB61C31C888008920A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8DC1CB71C31C888008920A9 /* Build configuration list for PBXNativeTarget "Tweet FinderUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +537,7 @@
 				F8DC1CB91C31C888008920A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
